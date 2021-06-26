@@ -1,6 +1,7 @@
 # Routing Mux Bits
 .mux JDIA
 INDDA_SIOLOGIC F21B0
+JPADDIA_PIO -
 
 
 # Non-Routing Configuration
@@ -69,8 +70,6 @@ SLOW !F22B1
 .fixed_conn JCEA_SIOLOGIC N1_JCE0
 
 .fixed_conn JCLKA_SIOLOGIC N1_JCLK0
-
-.fixed_conn JDIA JPADDIA_PIO
 
 .fixed_conn JDIRECTIONA_SIOLOGIC N1_JB1
 

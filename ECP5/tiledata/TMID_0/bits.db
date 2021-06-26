@@ -113,8 +113,6 @@ PLUS !F62B0
 
 
 # Fixed Connections
-.fixed_conn DDRDEL G_ULDDRDEL
-
 .fixed_conn DDRDEL_DLLDEL DDRDEL
 
 .fixed_conn DLLDEL Z_DLLDEL
@@ -291,8 +289,6 @@ PLUS !F62B0
 
 .fixed_conn JDIRECTION_DLLDEL S1_JD6
 
-.fixed_conn JINCK JPADDI
-
 .fixed_conn JLOADN_DLLDEL S1_JB6
 
 .fixed_conn JMOVE_DLLDEL S1_JC6
@@ -303,8 +299,6 @@ PLUS !F62B0
 
 .fixed_conn S1_JQ7 JCFLAG_DLLDEL
 
-.fixed_conn W1_DDRDEL G_ULDDRDEL
-
 .fixed_conn W1_DDRDEL_DLLDEL W1_DDRDEL
 
 .fixed_conn W1_DLLDEL W1_Z_DLLDEL
@@ -312,8 +306,6 @@ PLUS !F62B0
 .fixed_conn W1_JA_DLLDEL W2_JPADDIA_PIO
 
 .fixed_conn W1_JDIRECTION_DLLDEL S1W1_JD6
-
-.fixed_conn W1_JINCK W1_JPADDI
 
 .fixed_conn W1_JLOADN_DLLDEL S1W1_JB6
 
